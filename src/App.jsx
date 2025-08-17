@@ -15,6 +15,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<CreateList />} />
+        <Route path="/create/loading" element={<CreateLoading />} />
+        <Route path="/lists" element={<ListIndex />} />
+        <Route path="/lists/:id" element={<ListResults />} />
       </Routes>
     </BrowserRouter>
   );
